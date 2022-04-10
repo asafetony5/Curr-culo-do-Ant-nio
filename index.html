@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    body{
+        width: 100%;
+        color: #069;
+        text-align: center;
+        min-height: 100vh;
+        font-weight: bold;
+        font-family: Verdana, Geneva,
+        Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 50%;
+        overflow-y: scroll;
+        height: 90vh;
+        padding: 15px 2%;
+        box-shadow: 0 0 5px #069;
+    }
+    .container::-webkit-scrollbar{
+        width: 14px;
+        border: 1px solid #069;
+    }
+    .container::-webkit-scrollbar-thumb{
+        background-color: #069;
+        border-radius: 6px;
+    }
+    .hr_dados1{
+        border-top: medium dashed
+        #069;
+        border-bottom: medium dashed #069;
+        height: 5px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hrdados::after{
+        content: "Antônio Asafe";
+        font-size: 1.4em;
+        padding: 0 0.3em;
+        top: -0.7em;
+        background-color: #fff;
+        display: inline;
+        position: relative;
+    }
+    .hr_01{
+        border: medium dashed #069;
+        border-bottom: medium dashed #069;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_01::after{
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+</style>
+<body>
+    <section></section>
+        <h1> Antônio Asafe</h1>
+        <img src="assets/img/foto_pf.jpg" alt="Antônio" width="200"height="300">
+        <h3>Cientista de Dados Júnior e Progamador Python</h3>
+    </section>
+    <section>
+        <h2>Informações de contato:</h2>
+        <ul>
+            <li>Telefone: 27988233950</li>
+            <li>Email: asafetony5@gmail.com</li>
+            <li>Espírito Santo, Vitória 29090100</li>
+            <hr class="hr_01"><br>
+            <h3>Sou um profissional sério e empenhado para o melhor desenpenho 
+                possível da empresa e de meus colegas, porém sou sociável e sei
+                aproveitar as relações sociais para trazer um ambiente amigável
+                que resulta em ainda mais desenpenho.
+            </h3><br><br>
+            <hr class="hr_02"><br>
+            <h3>Sou muito curioso e durante esses 3 anos de experência com 
+                (data engineering) e (data science) aprendi muito sobre os 
+                dados e como eles se comportam.
+            </h3>
+            <hr class="hr_03"><br>
+            <h3>Pretendo me formar na UVV em Vila Velha no curso de Sistemas
+                de Informação para incrementar mais meu currículo e habilidades,
+                e no futuro farei também o curso de Engenharia da Computação 
+                para que eu consiga trabalhar com maior profissionalidade em
+                meus projetos pessoais e emopresariais.
+            </h3>
+        </ul>
+    </section>
+</body>
+</html>
